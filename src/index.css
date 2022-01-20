@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #222;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  max-width: 500px;
+  margin: 20px auto 0 auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 2px solid pink;
+  padding: 30px 30px 5px 30px;
+  border-radius: 8px;
+}
+
+h1,
+h2 {
+  margin: 0 0 15px 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 32px;
+  padding: 0;
+  border-bottom: 1px solid rgb(44, 43, 43);
+}
+
+h2 {
+  font-size: 25px;
+  padding: 0 0 3px 0;
+  border-bottom: 1px solid pink;
+}
+
+p {
+  color: #fff;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+}
+
+.tasks-wall {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 15px;
+  margin: 0;
+  justify-content: space-between;
+  border-radius: 5px;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.tasks-wall:hover {
+  color: rgb(250, 210, 217);
+  font-weight: 600;
+}
+
+.add-task-container {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  padding: 0 0 8px 0;
+}
+
+.add-task-input {
+  border: none;
+  padding: 0 10px;
+  height: 30px;
+  flex: 2;
+  border-radius: 4px;
+  background-color: rgb(241, 229, 231);
+  font-size: 14px;
+  width: 100%;
+}
+
+.button-back,
+.button {
+  background-color: pink;
+  font-weight: bold;
+  height: 30px;
+  border-radius: 4px;
+  padding: 0 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button {
+  width: 100%;
+}
+
+.button-container {
+  margin: 0 2px;
+  padding: 0;
+  flex: 1;
+}
+
+.container-tab-descript {
+  background-color: rgb(71, 71, 71);
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+
+.back-container-buttor {
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.button-back {
+  margin-top: 30px;
+  width: 70px;
+}
+
+.button-back:hover,
+.button:hover {
+  background-color: rgb(243, 155, 169);
+}
+.task-container {
+  background-color: #333;
+  justify-content: space-between;
+  display: flex;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.task-container:hover {
+  box-shadow: 1px 1px 5px pink;
+}
+
+.button-del {
+  align-items: center;
+}
+
+.button-del,
+.button-div-descript {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-del2 {
+  background-color: rgba(34, 34, 34, 0);
+  color: rgb(224, 170, 179);
+  border: 2px solid pink;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  vertical-align: middle;
+  margin: 15px;
+}
+
+.button-del2:hover {
+  border: 2px solid #ff0000;
+  color: #ff0000;
+}
+
+.button-div-descript {
+  align-items: center;
+  vertical-align: middle;
+}
+
+.button-descript {
+  background-color: rgba(34, 34, 34, 0);
+  color: rgb(224, 170, 179);
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  vertical-align: middle;
+  margin: 0;
+  align-items: center;
+  height: 100%;
+  margin-right: 13px;
+}
+
+.button-descript:hover {
+  color: rgb(230, 221, 221);
+}
